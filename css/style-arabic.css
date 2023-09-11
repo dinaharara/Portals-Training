@@ -1,0 +1,55 @@
+
+@font-face {
+    font-family: 'lt-w23';
+    src: url(../fonts/din-next-lt-w23-regular.ttf);
+}
+body{
+    direction: rtl;
+    text-align: right!important;
+}
+.owl-carousel {
+    direction: ltr;
+}
+.position-abs .row{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.contant-class{
+    text-align: center;
+}
+.w-ar{
+    width: 100%;
+}
+.contant-class .item .row{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.text-ar{
+    text-align: start!important;
+}
+.owl-carousel1 .owl-nav.disabled{
+    display: block;
+    position: absolute;
+    top: -30%;
+    left: 0%;
+  }
+  .input-icon {
+    position: absolute;
+    top: 50%;
+    right: 10px; 
+    transform: translateY(-50%);
+  }
+  .text-start-imp {
+    text-align: right!important;
+  }
+  .paddind-resp{
+    padding-left: 35px!important;
+  }
+  .custom-input button {
+    position: absolute;
+    top: 0;
+    right: 75%;
+    height: 100%;
+    padding: 6px 20px;
+    border-radius: 12px;
+  }
